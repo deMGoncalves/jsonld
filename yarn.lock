@@ -1942,6 +1942,8 @@ eslint@^7.19.0:
 eslintrc@deMGoncalves/eslintrc:
   version "1.0.0"
   resolved "https://codeload.github.com/deMGoncalves/eslintrc/tar.gz/4366a7369e99b4d46400abd16b41bc13f5cd4cb7"
+  dependencies:
+    f deMGoncalves/f
 
 espree@^7.3.0, espree@^7.3.1:
   version "7.3.1"
@@ -2456,6 +2458,12 @@ has@^1.0.3:
   dependencies:
     function-bind "^1.1.1"
 
+hook@deMGoncalves/hook:
+  version "1.0.0"
+  resolved "https://codeload.github.com/deMGoncalves/hook/tar.gz/ebc1ceea026f15ec4a78fceedc55394d84ea7e7d"
+  dependencies:
+    f deMGoncalves/f
+
 hosted-git-info@^2.1.4:
   version "2.8.8"
   resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.8.tgz#7539bd4bc1e0e0a895815a2e0262420b12858488"
@@ -2479,6 +2487,12 @@ html-escaper@^2.0.0:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/html-escaper/-/html-escaper-2.0.2.tgz#dfd60027da36a36dfcbe236262c00a5822681453"
   integrity sha512-H2iMtd0I4Mt5eYiapRdIDjp+XzelXQ0tFE4JS7YFwFevXXMmOp9myNrUvCg0D6ws8iqkRPBfKHgbwig1SmlLfg==
+
+htmlparser@deMGoncalves/htmlparser:
+  version "1.0.0"
+  resolved "https://codeload.github.com/deMGoncalves/htmlparser/tar.gz/62f4af1a49265d7edf0dd90191a4c6e7b2b851ab"
+  dependencies:
+    f deMGoncalves/f
 
 http-signature@~1.2.0:
   version "1.2.0"
