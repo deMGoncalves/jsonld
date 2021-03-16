@@ -1,8 +1,8 @@
 {
   "dependencies": {
     "f": "deMGoncalves/f",
-    "hook": "deMGoncalves/hook",
-    "htmlparser": "deMGoncalves/htmlparser"
+    "h": "deMGoncalves/h",
+    "hook": "deMGoncalves/hook"
   },
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",

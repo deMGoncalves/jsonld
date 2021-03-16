@@ -1,9 +1,10 @@
-import h, { render } from 'htmlparser'
+import h, { render } from 'h'
 import * as f from 'f'
 import graph from './graph'
 
-export default f.debounce(() =>
+export default f.debounce(() => {
   render(
+    document.body,
     <script type='application/ld+json'>
       {
         JSON.stringify({
@@ -13,4 +14,5 @@ export default f.debounce(() =>
         })
       }
     </script>
-  ))
+  )
+})
